@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="images/Innomitra final.png" alt="Logo" class="logo"> <!-- Add your logo URL here -->
+    <div class="form-container">
+        <h1>Patient Registration Form</h1>
+        <form id="patientForm">
+            <div class="form-group">
+                <label for="name">Patient Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="surname">Patient Surname:</label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+            <div class="form-group">
+                <label for="adharNumber">Adhar Number:</label>
+                <input type="text" id="adharNumber" name="adharNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="mobileNumber">Mobile Number:</label>
+                <input type="text" id="mobileNumber" name="mobileNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="referredBy">Referred By:</label>
+                <input type="text" id="referredBy" name="referredBy" required>
+            </div>
+            <div class="form-group">
+                <label for="requirement">Requirement:</label>
+                <textarea id="requirement" name="requirement" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
